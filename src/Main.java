@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Library librery = new Library();
+        Library library = new Library();
 
         while (true){
             System.out.println("\n1 - Cadastro livro");
@@ -27,11 +27,11 @@ public class Main {
                     scanner.nextLine();
 
                     Book book = new Book(title, author, year);
-                    librery.addBook(book);
+                    library.addBook(book);
                     break;
 
                 case 2:
-                    librery.listBooks();
+                    library.listBooks();
                     break;
 
                 case 3:
@@ -39,7 +39,7 @@ public class Main {
                     int id = scanner.nextInt();
                     scanner.nextLine();
 
-                    Book foundBook = librery.searchBookId(id);
+                    Book foundBook = library.searchBookId(id);
                     if (foundBook != null) {
                         System.out.println(foundBook);
                     } else {
