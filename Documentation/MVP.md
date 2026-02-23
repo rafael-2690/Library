@@ -1,6 +1,6 @@
 ### Persona principal: Usuário (leitor)
 
-### Objetivo: O leitor ter controle do livro que leu.
+### Objetivo: O leitor ter controle dos livros que já completou a leitura.
 
 ### Funcionalidades MVP (máx. 6):
 1. Adicionar livros;
